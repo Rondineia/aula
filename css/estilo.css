@@ -1,5 +1,10 @@
+body{
+    width: 75%;
+    margin: 0 auto;
+}
+
 header{
-    background: turquoise;
+    background: aqua;
     height: 60px;
     color: black;
     padding: 0 10px;
@@ -17,38 +22,41 @@ img {
 }
 aside{    
     background: palevioletred;
-    height: 600px;
-    width: 20%;
+    height: 795px;
+    width: 25%;
     float: left;
     border-radius: 10px;
-    padding: 2px;
+    padding: 5px;
+
 }
 main{
-    background: orangered;
-    height: 600px;
-    width: 80%;
+    background: aqua;
+    height: 800px;
+    width: 70%;
     float: right;
     border-radius: 10px;
     margin: 5px 0;
+    padding: 10px 20px 0px 10px;
+
 }
 section{
-    border: 1px solid white;
+    border: 2px dotted white;
     min-height: 100 px;
-    display: inline-block;
-    margin: 10px 16px;
     width: 100%;
     margin: 5px 0;
     padding: 2px;
+    border-radius: 7px;
+    
 }
 footer{
     background: palevioletred;
-    height: 60px;
+    height: 55px;
     text-align: center;
     border-radius: 10px;
     clear: both;
 }
 body{
-    font-family: "Times new Roman", Times, serif;
+    font-family: "Times new Roman", "Times", "serif";
 }
 header, nav, main{
     margin-bottom: 10px;
