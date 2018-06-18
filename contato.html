@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Curriculo</title>
+    <link href="css/estilo.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <p class="esquerda"> <a href="index.html">Rondineia de Jesus Silva</a></p>
+        <p class="direita"> rondineiadejesus@gmail.com</p>
+    </header>
+
+    <aside>
+        <img src="img/mulher.png" />
+
+        <p><b>Nacionalidade:</b> Brasileira</p>
+        <p><b>Telefone:</b>(99) 9 9999-9999</p>
+        <p><b>Sexo:</b> Feminino</p>
+        <p><b>Idade:</b> 17 anos</p>
+        <p><b>Endereço:</b> Pantanal, Picos-PI</p>
+    </aside>
+
+    <main>
+
+        <form action="/action_page.php">
+            Nome:<br>
+            <input required type="text" name="firstname" placeholder="Digite seu nome aqui..."><br><br> 
+            Email:
+            <br>
+            <input required type="email" name="email" placeholder="Digite seu email aqui..."><br><br>
+            Assunto:
+            <select required name="Assunto">
+                <option value="">Selecione</option>
+                <option value="Ajuda">Ajuda</option>
+                <option value="Proposta">Proposta</option>
+                <option value="Duvida">Duvida</option>
+            </select><br><br> Mensagem:
+            <br>
+            <textarea required name="message" rows="20" cols="40" placeholder="Deixe sua mensagem aqui"></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer>
+        <p><b>IFPI-Pantanal</b></p>
+
+    </footer>
+</body>
+
+</html>
